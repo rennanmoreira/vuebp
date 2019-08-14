@@ -1,0 +1,31 @@
+{
+  "name": "Efficacy WMS",
+  "short_name": "WMS",
+  "icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#2c63af",
+  "theme": {
+    "images": {
+      "theme_frame": "./img/icons/android-chrome-192x192.png"
+    },
+    "colors": {
+      "frame": "#2c63af",
+      "tab_text": "#fff",
+      "toolbar": "#2c63af",
+      "bookmark_text": "#fff"
+    }
+  }
+}

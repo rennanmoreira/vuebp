@@ -1,0 +1,40 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "linterOptions": {
+    "exclude": [
+			"node_modules/**",
+			"*.json",
+			"**/*.json"
+    ]
+  },
+  "rules": {
+    "quotemark": [true, "single"],
+    "indent": [true, "tabs", 2],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": true,
+    "no-irregular-whitespace": true,
+    "space-within-parens": false,
+    "trailing-comma": false,
+    "max-line-length": {"options": [1000]},
+    "semicolon": [false],
+    "align": [true, "parameters", "statements"],
+    "no-trailing-whitespace": true,
+    "no-console": false,
+    "arrow-parens": false,
+    "member-access": [true, "no-public"],
+    "space-before-function-paren": [false, "always"],
+    "no-shadowed-variable": false,
+    "whitespace": false,
+    "curly": [true, "ignore-same-line"],
+		"max-classes-per-file": [false, 2],
+    "no-empty-interface": false,
+    "no-unused-expression": false
+  },
+  "jsRules": {},
+  "rulesDirectory": []
+}

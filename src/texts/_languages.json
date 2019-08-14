@@ -1,0 +1,18 @@
+[
+	{
+		"code": "pt-BR",
+		"flag": "/img/flags/BR.png",
+		"menu": "FunctionalityName",
+		"idiom": "Português",
+		"country": "Brasil",
+		"elementUI": "element-ui/lib/locale/lang/pt-br"
+	},
+	{
+		"code": "en-US",
+		"flag": "/img/flags/US.png",
+		"menu": "FunctionalityNameUS",
+		"idiom": "English",
+		"country": "United States",
+		"elementUI": "element-ui/lib/locale/lang/en"
+	}
+]

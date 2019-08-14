@@ -1,0 +1,39 @@
+{
+	"general": {
+		"error": {
+			"internalServerError": "Não foi possivel contactar o servidor.",
+			"unexpectedError": "Ocorreu um erro inesperado."
+		},
+    "date": {
+      "monthNames": [ "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro" ],
+			"monthNamesShort": [ "Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez" ]
+    }
+  },
+	"page": {
+		"auth": {
+			"title": "Faça Login",
+			"inputs": {
+				"username": "Usuário ou email",
+				"password": "Senha",
+				"select": "Selecione"
+			},
+			"signIn": "Entrar",
+			"messageInvalidUser": "Usuário ou senha incorretos!"
+		},
+		"main": {
+			"home": {
+				"welcome": "Bem-vindo(a) ",
+				"settings": "Configurações",
+				"serviceOrders": "Ordens de Serviço",
+				"checkout": "Checkout",
+				"inventory": "Inventário",
+				"logout": "Deslogar"
+			}
+		},
+    "notFound": {
+      "subTitle": "Página não encontrada!",
+      "backInitial": "Voltar para a página inicial"
+    }
+	},
+	"component": {}
+}

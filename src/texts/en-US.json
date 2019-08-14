@@ -1,0 +1,39 @@
+{
+  "general": {
+    "error": {
+      "internalServerError": "Could not contact server.",
+      "unexpectedError": "An unexpected error occurred."
+    },
+    "date": {
+      "monthNames": [ "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ],
+      "monthNamesShort": [ "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" ]
+    }
+  },
+  "page": {
+    "auth": {
+      "title": "Log In",
+      "inputs": {
+        "username": "Username or email",
+        "password": "Password",
+        "select": "Select"
+      },
+      "signIn": "Sign in",
+      "messageInvalidUser": "Incorrect username or password!"
+    },
+    "main": {
+      "home": {
+        "welcome": "Welcome ",
+        "settings": "Settings",
+        "serviceOrders": "Service Orders",
+        "checkout": "Checkout",
+        "inventory": "Inventory",
+        "logout": "Logout"
+      }
+    },
+    "notFound": {
+      "subTitle": "Page not found!",
+      "backInitial": "Back to the initial page."
+    }
+  },
+  "component": {}
+}

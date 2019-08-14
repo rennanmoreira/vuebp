@@ -1,0 +1,43 @@
+pipelines:
+  pull-requests:
+    '**':
+      - step:
+          name: Test WMSVUE
+          image: cypress/base:10
+          caches:
+            - node
+            - yarncustom
+            - cypress
+          script:
+            - yarn
+            - yarn unit
+            - yarn e2e
+  branches:
+    develop:
+      - step:
+          name: Build WMSVUE
+          image: node:10.16.0-slim
+          caches:
+            - node
+            - yarncustom
+            - cypress
+          script:
+            - yarn
+            - yarn build
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy wmsvue:master
+          deployment: production
+          script:
+            - pipe: microsoft/azure-storage-deploy:1.1.1
+              variables:
+                SOURCE: dist/
+                DESTINATION: 'https://wmsvue.blob.core.windows.net/\\\$web'
+                DESTINATION_SAS_TOKEN: $AZURE_STORAGE_SAS_TOKEN
+                EXTRA_ARGS: '--verbose --set-content-type'
+            - echo WMSVUE is running in production on http://wmsvue.z15.web.core.windows.net/
+definitions:
+  caches:
+    yarncustom: /usr/local/share/.cache/yarn/v1
+    cypress: $HOME/.cache/Cypress

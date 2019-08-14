@@ -1,0 +1,54 @@
+.vb {
+	& > .vb-dragger {
+		z-index: 5;
+    border-radius: 15px;
+    width: 7px;
+    background-color: #003d88;
+    left: 5px;
+
+		& > .vb-dragger-styler {
+			backface-visibility: hidden;
+			transform: rotate3d(0,0,0,0);
+			transition:
+				background-color 100ms ease-out,
+				margin 100ms ease-out,
+				height 100ms ease-out;
+			background-color: transparentize($text-color, 0.9);
+			margin: 5px 5px 5px 0;
+			border-radius: 20px;
+			height: calc(100% - 10px);
+			display: block;
+		}
+
+		&:hover {
+			& > .vb-dragger-styler {
+				margin: 0px;
+				height: 100%;
+			}
+		}
+	}
+
+	&.vb-scrolling-phantom {
+		& > .vb-dragger {
+			& > .vb-dragger-styler {
+				background-color: transparentize($text-color, 0.5);
+			}
+		}
+	}
+	&.vb-dragging {
+		& > .vb-dragger {
+			& > .vb-dragger-styler {
+				background-color: transparentize($text-color, 0.5);
+				margin: 0px;
+				height: 100%;
+			}
+		}
+	}
+	&.vb-dragging-phantom {
+		& > .vb-dragger {
+			& > .vb-dragger-styler {
+				// background-color: transparentize($text-color, 0.5);
+			}
+		}
+	}
+}
