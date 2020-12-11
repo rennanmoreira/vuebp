@@ -5190,9 +5190,9 @@ inherits@2.0.3, inherits@~2.0.0:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.7.tgz#a09363e1911972ea16d7a8851005d84cf09a9a84"
+  integrity sha512-iKpRpXP+CrP2jyrxvg1kMUpXDyRUFDWurxbnVT1vQPx+Wz9uCYsMIqYuSBLV+PAaZG/d7kRLKRFc9oDMsH+mFQ==
 
 internal-ip@^4.3.0:
   version "4.3.0"
@@ -6118,11 +6118,6 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jslinq@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/jslinq/-/jslinq-1.0.21.tgz#9b6e007d7477cbdaa1aba11ae8b4157382fdcfd2"
-  integrity sha1-m24AfXR3y9qhq6Ea6LQVc4L9z9I=
-
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -6281,11 +6276,6 @@ levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
-
-linq@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/linq/-/linq-3.2.0.tgz#622bc5b47fe360e227432ff4978ff55d36929558"
-  integrity sha512-rdmaLOf2tSCzZ75scdjjN/LVHGZzRu48ql9LdxppQec/pKpPtf8jlMDlPBX3rQnLMcGPtAx8Lel6YbF7jND70g==
 
 lint-staged@^8.1.5:
   version "8.2.1"
