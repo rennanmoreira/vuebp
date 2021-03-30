@@ -6118,11 +6118,6 @@ jsesc@~0.5.0:
   resolved "https://registry.yarnpkg.com/jsesc/-/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
   integrity sha1-597mbjXW/Bb3EP6R1c9p9w8IkR0=
 
-jslinq@^1.0.21:
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/jslinq/-/jslinq-1.0.21.tgz#9b6e007d7477cbdaa1aba11ae8b4157382fdcfd2"
-  integrity sha1-m24AfXR3y9qhq6Ea6LQVc4L9z9I=
-
 json-parse-better-errors@^1.0.1, json-parse-better-errors@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/json-parse-better-errors/-/json-parse-better-errors-1.0.2.tgz#bb867cfb3450e69107c131d1c514bab3dc8bcaa9"
@@ -6281,11 +6276,6 @@ levn@~0.3.0:
   dependencies:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
-
-linq@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/linq/-/linq-3.2.0.tgz#622bc5b47fe360e227432ff4978ff55d36929558"
-  integrity sha512-rdmaLOf2tSCzZ75scdjjN/LVHGZzRu48ql9LdxppQec/pKpPtf8jlMDlPBX3rQnLMcGPtAx8Lel6YbF7jND70g==
 
 lint-staged@^8.1.5:
   version "8.2.1"
@@ -10770,9 +10760,9 @@ xtend@^4.0.0, xtend@~4.0.1:
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
-  integrity sha1-bRX7qITAhnnA136I53WegR4H+kE=
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
+  integrity sha512-uGZHXkHnhF0XeeAPgnKfPv1bgKAYyVvmNL1xlKsPYZPaIHxGti2hHqvOCQv71XMsLxu1QjergkqogUnms5D3YQ==
 
 "y18n@^3.2.1 || ^4.0.0", y18n@^4.0.0:
   version "4.0.0"
