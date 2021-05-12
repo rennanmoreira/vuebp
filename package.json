@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "^0.19.0",
     "babel-plugin-component": "^1.1.1",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "core-js": "^2.6.5",
     "element-ui": "2.11.0",
     "flex.box": "^3.4.4",
